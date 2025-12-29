@@ -1,0 +1,33 @@
+nav img {
+    height: 7vh;
+}
+
+#heroSection {
+    background-image: url("./media/headerSeats.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.movieDesc {
+    text-align: justify;
+}
+
+.workWithUs {
+    width: 90vw;
+    border: 2px solid black;
+}
+
+footer {
+    height: 25vh;
+}
+
+footer i {
+    color: white;
+}
+
+@media screen and (min-width:800px) {
+    .workWithUs {
+        width: 60vw;
+    }
+}
